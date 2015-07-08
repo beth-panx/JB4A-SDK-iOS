@@ -12,10 +12,10 @@ The Apple docs for the SDK can be found here:<br/>
 ## Release History
  
 <div style="color:red;">
- Existing Customers: We have identified a bug in our 4.0.0 iOS SDK that will cause your app to crash upon the 2nd open after the upgrade. If you are upgrading the JourneyBuilder for Apps (MobilePush) SDK from any previous version, please wait and do not upgrade to 4.0.0 at this time.  We are currently working on a fix for this bug and will release a new version of the SDK as soon as we have a solution.
+ <b>Existing Customers</b>: We have identified a bug in our 4.0.0 iOS SDK that will cause your app to crash upon the 2nd open after the upgrade. If you are upgrading the JourneyBuilder for Apps (MobilePush) SDK from any previous version, please wait and do not upgrade to 4.0.0 at this time.  We are currently working on a fix for this bug and will release a new version of the SDK as soon as we have a solution.
 <br/><br/>
 
-New Customers: If you have never implemented our SDK into your app before, this issue will not effect your app.  Please implement the 4.0.0 version.
+<b>New Customers</b>: If you have never implemented our SDK into your app before, this issue will not effect your app.  Please implement the 4.0.0 version.
 </div> 
 <br/>
 
