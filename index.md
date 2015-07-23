@@ -12,15 +12,15 @@ The Apple docs for the SDK can be found here:<br/>
 ## Release History
  
 
- > <b>Existing Customers</b>: We have identified a bug in our 4.0.0 iOS SDK that will cause your app to crash upon the 2nd open after the upgrade. If you are upgrading the JourneyBuilder for Apps (MobilePush) SDK from any previous version, please wait and do not upgrade to 4.0.0 at this time.  We are currently working on a fix for this bug and will release a new version of the SDK as soon as we have a solution.
+#### Version 4.0.1
+**(supported)**
+Released July 23rd, 2015, correlating to the Salesforce Marketing Cloud 2015-04 Release<br/>
 
-
-> <b>New Customers</b>: If you have never implemented our SDK into your app before, this issue will not effect your app.  Please implement the 4.0.0 version.
-<br/>
+* MPUSH-3856 - SUPPORT - Upgrade to MobilePush iOS SDK 4.0.0 from SDK 3.4.2 Causes App to Freeze<br/>
 
 #### Version 4.0.0
 **(supported)**
-_To be released June 24th, 2015, correlating to the Salesforce Marketing Cloud 2015-04 Release_<br/>
+Released June 24th, 2015, correlating to the Salesforce Marketing Cloud 2015-04 Release<br/>
 
 * MPUSH-3605 - SDK iOS: Modify payload to always send english datetime<br/>
 * MPUSH-3472 - Change iOS location_enabled registration field to user location opt-in status<br/>
