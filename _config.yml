@@ -1,9 +1,7 @@
 # Site title and subtitle. This is used in _includes/header.html
-#
-# to create a new page, use this format:
-# ruby bin/jekyll-page "name of page" section
-#
-title: 'Journey Builder for Apps iOS SDK Documentation'
+title: 'Journey Builder for Apps iOS SDK' 
+subtitle: 'For the production doc, see: '
+link: '<a href="https://code.exacttarget.com/apis-sdks/journey-builder-for-apps" target="_blank">Current Documentation</a>'
 
 # if you wish to integrate disqus on pages set your shortname here
 disqus_shortname: ''
@@ -15,18 +13,28 @@ google_analytics_id: ''
 #   0 - always hide
 #   1 - always show
 #   2 - show only if posts are present
-navigation: 0
+navigation: 1
 
 # URL to source code, used in _includes/footer.html
-codeurl: 'https://salesforcefuel.github.io/JB4A-SDK-iOS'
+codeurl: 'https://github.com/salesforcefuel/JB4A-SDK-iOS' 
 
 # Default categories (in order) to appear in the navigation
-sections: []
+sections: [
+    ['overview', 'Overview'],
+    ['trouble', 'Trouble Shooting'],
+    ['provisioning', 'Provisioning'],
+    ['create-apps', 'Create Cloud Apps'],
+    ['sdk-implementation', 'SDK Implementation'],
+    ['features', 'Feature Implementation'],
+    ['rich-push', 'Rich Push'],
+    ['location', 'Location Services'],
+    ['resources', 'Additional Resources'] 
+]
 
-# Keep as an empty string if served up at the root. If served up at a specific
+# Keep as an empty string if served up at the root. If served up at a specific 
 # path (e.g. on GitHub pages) leave off the trailing slash, e.g. /my-project
 baseurl: "/JB4A-SDK-iOS" # the subpath of your site, e.g. /blog/
-url: "http://exacttarget.github.io" # the base hostname & protocol for your site
+url: "http://salesforcefuel.github.io" # the base hostname & protocol for your site
 
 # Dates are not included in permalinks
 permalink: none
