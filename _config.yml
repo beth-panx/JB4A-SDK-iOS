@@ -1,7 +1,7 @@
 # Site title and subtitle. This is used in _includes/header.html
 title: 'Journey Builder for Apps iOS SDK' 
 subtitle: 'For the production doc, see: '
-link: '<a href="https://code.exacttarget.com/apis-sdks/journey-builder-for-apps" target="_blank">Current Documentation</a>'
+link: '<a href="https://code.exacttarget.com/apis-sdks/journey-builder-for-apps" target="_blank">Previous Documentation</a>'
 
 # if you wish to integrate disqus on pages set your shortname here
 disqus_shortname: ''
